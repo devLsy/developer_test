@@ -15,7 +15,7 @@ public class testClass {
 }
 ~~~
 
-### 2. id가 "btn"인 버튼 클릭 시 "area" 영역의 배경색을 #D1B2FF로 변경 하시오.
+### 2. id가 "btn"인 버튼 클릭 시 "area" 영역에 "본인이름"을 추가 하시오.
 ~~~
 <script>
 
