@@ -18,11 +18,11 @@ public class testClass {
 ~~~
 <c:forEach items="${     }" var="board">
     <tr>
-    	<td></td>
-    	<td></td>
-        <td></td>
-    	<td></td>
-        <td></td>
+    	<td>          </td>
+        <td>          </td>
+        <td>          </td>
+        <td>          </td>
+        <td>          </td>
     </tr>
 </c:forEach>
 ~~~
