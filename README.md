@@ -1,4 +1,4 @@
-### 1. 1부터 100까지의 숫자 중 2의 배수의 합을 구하시오.
+### 1. 1부터 100까지의 숫자 중 2의 배수의 합을 구하는 코드를 구현하시오.
 ~~~
 public class testClass {
   public static void main(String[] args) {
@@ -32,11 +32,15 @@ public class testClass {
 
 ### 3. 2번의 코드를 jQuery로 구현하시오.(lib는 다운받았다는 가정 하에 코드만 구현)
 ~~~
- <div>
-   <button id="btn" type="button">cl</button>
- </div>
+ <button id="btn" type="button">버튼</button>
  <div id="area">
  </div>
+<script>
+
+
+
+
+</script>
 ~~~
 
 
