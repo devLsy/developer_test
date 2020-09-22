@@ -43,7 +43,16 @@ public class testClass {
 </script>
 ~~~
 
+### 4. 아래 div의 너비 - 420px, 높이 - 200px로, 배경색을 #FF00DD로 정의하는 css 문법을 구현하시오.
+~~~
+<style>
 
+
+
+
+</style>
+<div class="good"></div>
+~~~
 
 
 
