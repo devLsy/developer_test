@@ -2,8 +2,7 @@
 ~~~
 public class testClass {
   public static void main(String[] args) {
-    
-    
+  	
     
     
     
@@ -15,21 +14,32 @@ public class testClass {
 }
 ~~~
 
-### 2. id가 "btn"인 버튼 클릭 시 "area" 영역에 "본인이름"을 추가 하시오.
+### 2. id가 "btn"인 버튼 클릭 시 "area"영역에 본인 이름을 추가하는 코드를 구현하시오.(javascript 사용)
 ~~~
-<script>
 
-
-
-
-
-</script>
  <div>
    <button id="btn" type="button">cl</button>
  </div>
  <div class="area">
  </div>
+<script>
+
+
+
+
+</script> 
 ~~~
+
+### 3. 2번의 코드를 jQuery로 구현하시오.(lib는 다운받았다는 가정 하에 코드만 구현)
+~~~
+ <div>
+   <button id="btn" type="button">cl</button>
+ </div>
+ <div id="area">
+ </div>
+~~~
+
+
 
 
 
