@@ -27,7 +27,7 @@ public class testClass {
 </c:forEach>
 ~~~
 
-### 2. id가 "btn"인 버튼 클릭 시 "area"영역에 본인 이름을 추가하는 코드를 구현하시오.(javascript 사용)
+### 3. id가 "btn"인 버튼 클릭 시 "area"영역에 본인 이름을 추가하는 코드를 구현하시오.(javascript 사용)
 ~~~
 
  <div>
@@ -43,7 +43,7 @@ public class testClass {
 </script> 
 ~~~
 
-### 3. 2번의 코드를 jQuery로 구현하시오.(lib는 다운받았다는 가정 하에 코드만 구현)
+### 4. 2번의 코드를 jQuery로 구현하시오.(lib는 다운받았다는 가정 하에 코드만 구현)
 ~~~
  <button id="btn" type="button">버튼</button>
  <div id="area">
@@ -56,7 +56,7 @@ public class testClass {
 </script>
 ~~~
 
-### 4. 아래 div의 너비 - 420px, 높이 - 200px로, 배경색을 #FF00DD로 정의하는 css 문법을 구현하시오.
+### 5. 아래 div의 너비 - 420px, 높이 - 200px로, 배경색을 #FF00DD로 정의하는 css 문법을 구현하시오.
 ~~~
 <style>
 
