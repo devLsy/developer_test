@@ -16,7 +16,7 @@ public class testClass {
 
 ### 2. db에서 가져온 list타입 형태의 데이터를 model에 담아 화면에 넘겼을 경우 jstl로 "bno(게시글 번호)", "title(글제목)", "writer(작성자)", "regdate(작성일)", "updatedate(수정일)"을 가져와서 표현하는 문법을 구현하시오(모델에서 담은 변수명은 "list"로 가정). 
 ~~~
-<c:forEach items="${list}" var="board">
+<c:forEach items="${}" var="board">
     <tr>
     	<td></td>
     	<td></td>
