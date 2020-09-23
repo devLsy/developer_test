@@ -42,11 +42,11 @@ public class Test2 {
 }
 ~~~
 결과물 : 
-newStr : 아이언맨
-newStr : 캡틴아메리카
-newStr : 헐크
-newStr : 토르
-newStr : 닥터스트레인지
+newStr : 아이언맨 <br/>
+newStr : 캡틴아메리카 <br/>
+newStr : 헐크 <br/>
+newStr : 토르 <br/>
+newStr : 닥터스트레인지 <br/>
 
 ### 4. id가 "btn"인 버튼 클릭 시 "area"영역에 본인 이름을 추가하는 코드를 구현하시오.(javascript 사용)
 ~~~
