@@ -16,7 +16,7 @@ public class testClass {
 
 ### 2. db에서 가져온 list타입 형태의 데이터를 model에 담아 화면에 넘겼을 경우 jstl로 "bno(게시글 번호)", "title(글제목)", "writer(작성자)", "regdate(작성일)", "updatedate(수정일)"을 가져와서 표현하는 문법을 아래 코드를 완성해서 구현하시오(모델에 담은 변수명은 "list"로 가정). 
 ~~~
-<c:       items="${     }" var="board">
+<c:         items="${     }" var="board">
     <tr>
     	<td>                </td>
         <td>                </td>
@@ -24,7 +24,7 @@ public class testClass {
         <td>                </td>
         <td>                </td>
     </tr>
-</c:      >
+</c:          >
 ~~~
 
 ### 3. id가 "btn"인 버튼 클릭 시 "area"영역에 본인 이름을 추가하는 코드를 구현하시오.(javascript 사용)
