@@ -41,7 +41,7 @@ public class Test2 {
 	}
 }
 ~~~
-결과물 : 
+결과물 : <br/>
 newStr : 아이언맨 <br/>
 newStr : 캡틴아메리카 <br/>
 newStr : 헐크 <br/>
