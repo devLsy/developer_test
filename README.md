@@ -109,7 +109,7 @@ FROM board
 ### 8. 아래 SQL문에서 조건식을 추가해서 stat가 2는 "승인", 1은 "미승인", 3은 "승인대기 중", 그밖은 "기타"로 stat컬럼을 추가조회하는 코드를 완성하시오.
 ~~~
 SELECT user_idx, 
-	   user_nm,
+       user_nm,
 		   
 		   			 stat = '2'           '승인'
 		   			 stat = '1'           '미승인'
