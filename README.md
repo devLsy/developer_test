@@ -89,7 +89,7 @@ SELECT user_idx,
 		   
 		   			 stat = '2'           '승인'
 		   			 stat = '1'           '미승인'
-					    stat = '3'           '승인대기 중'
+					 stat = '3'           '승인대기 중'
 		   	 '기타'
 		   	 AS 상태
 FROM tm_user
