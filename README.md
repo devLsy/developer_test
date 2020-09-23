@@ -225,12 +225,26 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 	... 73 more
 ~~~
 
-### 10. 결과물이 아래와 같이 나오도록 html 코드를 구현하시오.
+### 10. 결과물이 아래와 같이 나오도록 html 코드를 완성하시오.
+■ 조건 : 이름 최대입력 길이 8자,
+        비밀번호 최대입력 길이 12자,
+        전송 버튼 누를 경우 form data를 test/send.do로 전달
 ~~~
+<form							>
+	이름 : 
+	비밀번호 : 
+    
 
+
+
+
+
+
+</form>
 ~~~
 <img src="https://user-images.githubusercontent.com/44331989/94006631-14fcd300-fddb-11ea-9b9a-f07da602ed5d.PNG"/>
 
+## 감사합니다.
 
 
 
