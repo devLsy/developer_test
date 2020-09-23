@@ -91,7 +91,7 @@ $(document).ready(function() {
 <div class="good"></div>
 ~~~
 
-### 7. 아래 xml(ibatis)에서 parameter값으로 전달받은 "keyword"가 있는 경우(동적 쿼리) SQL문에 AND절을 붙여 넘겨받은 "keyword"를 조건으로 추가하는 코드를 완성하시오.
+### 7. 아래 xml(ibatis)에서 parameter값으로 전달받은 "keyword"가 있는 경우(동적 쿼리) SQL문에 AND절을 붙여 넘겨받은 "keyword"를 조건 추가하는 코드를 완성하시오.
 ~~~
 <select id="board.getList" parameterClass="boardVO" resultClass="resultVO">
 SELECT
