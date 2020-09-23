@@ -229,14 +229,9 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 ~~~
 
 ~~~
-결과물 : 
-<form action="send.do">
-	이름 : <input type="text" maxlength="8" placeholder="이름을 입력 해주세요."> <br/>
-	비밀번호 : <input type="password" maxlength="12" placeholder="비밀번호를 입력 해주세요."> <br/>
-	<input type="checkbox" value="남"> 남성
-	<input type="checkbox" value="여"> 여성 <br/>
-	<button type="submit">전송</button>
-</form>
+결과물 : <br/>
+<img src="https://user-images.githubusercontent.com/44331989/94006631-14fcd300-fddb-11ea-9b9a-f07da602ed5d.PNG"/>
+
 
 
 
