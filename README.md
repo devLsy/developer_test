@@ -48,7 +48,7 @@ newStr : 헐크 <br/>
 newStr : 토르 <br/>
 newStr : 닥터스트레인지 <br/>
 
-### 4. id가 "btn"인 버튼 클릭 시 "area"영역에 본인 이름을 추가하는 코드를 구현하시오.(javascript 사용)
+### 4. id가 "btn"인 버튼 클릭 시 "area"영역에 본인 이름을 추가하는 코드를 구현하시오.(javascript 사용)(문제를 더 명확하게 기입 필요)
 ~~~
 
  <div>
@@ -64,7 +64,7 @@ newStr : 닥터스트레인지 <br/>
 </script> 
 ~~~
 
-### 5. 2번의 코드를 jQuery로 구현하시오.(lib는 다운받았다는 가정 하에 코드만 구현)
+### 5. 2번의 코드를 jQuery로 구현하시오.(lib는 다운받았다는 가정 하에 코드만 구현)(2번과 )
 ~~~
  <button id="btn" type="button">버튼</button>
  <div id="area">
