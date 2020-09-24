@@ -64,7 +64,7 @@ newStr : 닥터스트레인지 <br/>
 </script> 
 ~~~
 
-### 5. 2번의 코드를 jQuery로 구현하시오.(lib는 다운받았다는 가정 하에 코드만 구현)(2번과 )
+### 5. 4번의 코드를 jQuery로 구현하시오.(lib는 다운받았다는 가정 하에 코드만 구현)(2번과 )
 ~~~
  <button id="btn" type="button">버튼</button>
  <div id="area">
