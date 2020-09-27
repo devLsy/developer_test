@@ -239,7 +239,7 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 ~~~
 <img src="https://user-images.githubusercontent.com/44331989/94006631-14fcd300-fddb-11ea-9b9a-f07da602ed5d.PNG"/>
 
-## 감사합니다.
+## 문제 푸느라 고생 많으셨습니다 감사합니다.
 
 
 
