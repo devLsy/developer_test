@@ -21,15 +21,16 @@ public class testClass {
 
 ### 2. java단에서 db에서 가져온 list타입 형태의 데이터를 model에 담아 jsp에 전달했다는 가정하에 jstl로 "bno(게시글 번호)", "title(글제목)", "writer(작성자)", "regdate(작성일)", "updatedate(수정일)"을 가져와서 표현하는 문법을 아래 코드를 완성하시오(모델에 담은 변수명은 "list"로 정의).
 ~~~
-<c:         items="${        }" var="board">
-    <tr>
-    	<td>                 </td>
-        <td>                 </td>
-        <td>                 </td>
-        <td>                 </td>
-        <td>                 </td>
-    </tr>
-</c:          >
+
+
+
+
+
+
+
+
+
+
 ~~~
 
 ### 3. 아래 결과물이 나오도록 코드를 작성하시오.
