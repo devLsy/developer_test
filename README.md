@@ -116,7 +116,7 @@ SELECT user_idx,
 FROM tm_user
 ;		
 ~~~
-결과물 : 
+결과물 : <br/>
 <img src="https://user-images.githubusercontent.com/44331989/94353338-1401c500-00ab-11eb-8884-0b9c68c79c7e.PNG">
 
 ### 9. tomcat container 구동 중 아래와 같은 에러가 발생했다. 어느 부분을 확인해 봐야 될지 기입하시오.
