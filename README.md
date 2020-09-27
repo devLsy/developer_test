@@ -16,7 +16,7 @@ public class testClass {
 }
 ~~~
 
-### 2. java단에서 db에서 가져온 list타입 형태의 데이터를 model에 담아 jsp에 전달했다는 가정하에 jstl로 "bno(게시글 번호)", "title(글제목)", "writer(작성자)", "regdate(작성일)", "updatedate(수정일)"을 가져와서 표현하는 문법을 아래 코드를 완성하시오(모델에 담은 변수명은 "list"로 가정).
+### 2. java단에서 db에서 가져온 list타입 형태의 데이터를 model에 담아 jsp에 전달했다는 가정하에 jstl로 "bno(게시글 번호)", "title(글제목)", "writer(작성자)", "regdate(작성일)", "updatedate(수정일)"을 가져와서 표현하는 문법을 아래 코드를 완성하시오(모델에 담은 변수명은 "list"로 정의).
 ~~~
 <c:         items="${        }" var="board">
     <tr>
@@ -46,10 +46,10 @@ newStr : 헐크 <br/>
 newStr : 토르 <br/>
 newStr : 닥터스트레인지 <br/>
 
-### 4. 아래 코드를 보고 버튼 클릭 시 div영역에 본인 이름을 표시하는 코드를 구현하시오(클릭 하기전에는 div영역은 아무것도 없음)
+### 4. 아래 코드를 보고 버튼 클릭 시 div영역에 본인 이름을 표시하는 코드를 구현하시오(클릭 하기전에는 div영역엔 아무것도 없음)
 ~~~
 <button id="btn" type="button">click</button>
- <div class="area">
+ <div id="area">
  </div>
 <script>
 
@@ -75,7 +75,7 @@ $(document).ready(function() {
 </script>
 ~~~
 
-### 6. 아래 div의 스타일을 정의하시오.(너비 : 420px, 높이 : 200px, 배경색 : #FF00DD)
+### 6. 아래 div의 스타일을 정의하는 css 작성(너비 : 420px, 높이 : 200px, 배경색 : #FF00DD)
 ~~~
 <style>
 
@@ -115,7 +115,7 @@ FROM tm_user
 ;		
 ~~~
 
-### 9. 이클립스 환경 & tomcat container 구동 중 아래와 같은 에러가 발생했다. 어느부분을 확인해 봐야 될지 기입 하시오.
+### 9. tomcat container 구동 중 아래와 같은 에러가 발생했다. 어느 부분을 확인해 봐야 될지 기입하시오.
 ~~~
 9월 23, 2020 8:03:52 오후 org.apache.catalina.core.StandardContext listenerStart
 심각: Context initialized 이벤트를 [org.springframework.web.context.ContextLoaderListener] 클래스의 인스턴스인 리스너에 전송하는 동안 예외 발생
@@ -220,14 +220,14 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 	... 73 more
 ~~~
 
-### 10. 결과물이 아래와 같이 나오도록 html 코드를 완성하시오.
+### 10. 아래 결과물이 나오도록 html 코드를 완성하시오.
 ■ 조건 : 이름 최대입력 길이 8자,
-        비밀번호 최대입력 길이 12자,
+        비밀번호 최대입력 길이 12자, 비밀번호는 ****식으로 입력되야 함,
         전송 버튼 누를 경우 form data를 test/send.do로 전달
 ~~~
-<form							>
-	이름 : 
-	비밀번호 : 
+
+	
+    
     
 
 	
@@ -235,7 +235,7 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 
 
 
-</form>
+
 ~~~
 <img src="https://user-images.githubusercontent.com/44331989/94006631-14fcd300-fddb-11ea-9b9a-f07da602ed5d.PNG"/>
 
