@@ -1,7 +1,6 @@
-면접에 영향 없는 테스트이고 아는 것만 작성하되 구글링 가능합니다.(제한시간 20분)
-==========================================================================================================================================================
+# 면접에 영향 없는 테스트, 아는 것만 작성하시오(제한시간 20분, 구글링 가능), 구글링 해서 푼 문제는 문제 옆에 구글링이라고 표시, 풀지 못한 문제는 이유를 간략하게 기입(ex: 시간부족), 오탈자 상관 없음, 돌려서 에러가 있을 수 있음을 가정
 
-### 1. 1부터 100까지의 숫자 중 2의 배수의 합을 구하는 코드를 구현하시오.
+### 1. 1부터 100까지의 숫자 중 2의 배수의 합을 구하시오.
 ~~~
 public class testClass {
   public static void main(String[] args) {
@@ -17,7 +16,7 @@ public class testClass {
 }
 ~~~
 
-### 2. java단에서 db에서 가져온 list타입 형태의 데이터를 model에 담아 jsp에 전달했다는 가정하에 jstl로 "bno(게시글 번호)", "title(글제목)", "writer(작성자)", "regdate(작성일)", "updatedate(수정일)"을 가져와서 표현하는 문법을 아래 코드를 완성하시오(모델에 담은 변수명은 "list"로 가정). 
+### 2. java단에서 db에서 가져온 list타입 형태의 데이터를 model에 담아 jsp에 전달했다는 가정하에 jstl로 "bno(게시글 번호)", "title(글제목)", "writer(작성자)", "regdate(작성일)", "updatedate(수정일)"을 가져와서 표현하는 문법을 아래 코드를 완성하시오(모델에 담은 변수명은 "list"로 가정).
 ~~~
 <c:         items="${        }" var="board">
     <tr>
@@ -30,18 +29,14 @@ public class testClass {
 </c:          >
 ~~~
 
-### 3. 아래 코드를 보고 결과물이 나올 수 있도록 코드를 완성하시오.
+### 3. 아래 결과물이 나오도록 코드를 작성하시오.
 ~~~
 public class Test2 {
 	public static void main(String[] test) {
+		String str = "아이언맨#캡틴아메리카#헐크#토르#닥터스트레인지";
 	
-	String str = "아이언맨#캡틴아메리카#헐크#토르#닥터스트레인지";
-	String[] newStr = 
 	
-    for(int i = 0; i <                 ;     ) {
-			System.out.println("newStr : " +             );
-		}
-	}
+    
 }
 ~~~
 결과물 : <br/>
@@ -51,12 +46,9 @@ newStr : 헐크 <br/>
 newStr : 토르 <br/>
 newStr : 닥터스트레인지 <br/>
 
-### 4. id가 "btn"인 버튼 클릭 시 "area"영역에 본인 이름을 추가하는 코드를 구현하시오.(javascript 사용)(문제를 더 명확하게 기입 필요)
+### 4. 아래 코드를 보고 버튼 클릭 시 div영역에 본인 이름을 표시하는 코드를 구현하시오(클릭 하기전에는 div영역은 아무것도 없음)
 ~~~
-
- <div>
-   <button id="btn" type="button">cl</button>
- </div>
+<button id="btn" type="button">click</button>
  <div class="area">
  </div>
 <script>
@@ -67,7 +59,7 @@ newStr : 닥터스트레인지 <br/>
 </script> 
 ~~~
 
-### 5. 4번의 코드를 jQuery로 구현하시오.(lib는 다운받았다는 가정 하에 코드만 구현)(2번과 )
+### 5. 4번의 코드를 jQuery로 구현하시오.
 ~~~
  <button id="btn" type="button">버튼</button>
  <div id="area">
@@ -83,7 +75,7 @@ $(document).ready(function() {
 </script>
 ~~~
 
-### 6. 아래 div의 스타일을 너비 - 420px, 높이 - 200px로, 배경색을 #FF00DD로 정의하는 css 문법을 구현하시오.
+### 6. 아래 div의 스타일을 정의하시오.(너비 : 420px, 높이 : 200px, 배경색 : #FF00DD)
 ~~~
 <style>
 
@@ -94,7 +86,7 @@ $(document).ready(function() {
 <div class="good"></div>
 ~~~
 
-### 7. 아래 xml(ibatis)에서 parameter값으로 전달받은 "keyword"가 있는 경우(동적 쿼리) SQL문에 AND절을 붙여 넘겨받은 "keyword"를 조건 추가하는 코드를 완성하시오.
+### 7. 아래 xml(ibatis)에서 parameter값으로 전달받은 "keyword"가 있는 경우(동적 쿼리) SQL문에 AND절을 붙여 넘겨받은 "keyword"를 조건에 추가하는 코드를 완성하시오.
 ~~~
 <select id="board.getList" parameterClass="boardVO" resultClass="resultVO">
 SELECT
@@ -238,7 +230,7 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 	비밀번호 : 
     
 
-
+	
 
 
 
