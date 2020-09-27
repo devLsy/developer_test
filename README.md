@@ -3,7 +3,7 @@
 - ## 작성하지 못한 문제는 이유 간략하게 기입(ex: 시간부족)
 - ## 오탈자 상관 없음, 돌려서 에러가 있을 수 있음을 가정하고 코드 작성
 
-### 1. 1부터 100까지의 숫자 중 2의 배수의 합을 구하시오.(합계에 사용할 변수명은 sum으로 설정)
+### 1. 1부터 100까지의 숫자 중 2의 배수의 합을 구하시오.(합계에 사용할 변수명은 sum으로 설정, 값 출력 함수는 sysout으로 써도 무방)
 ~~~
 public class testClass {
   public static void main(String[] args) {
@@ -31,7 +31,7 @@ public class testClass {
 </c:                             >
 ~~~
 
-### 3. 아래 결과물이 나오도록 코드를 작성하시오.
+### 3. 아래 결과물이 나오도록 코드를 작성하시오.(값 출력 함수는 sysout으로 써도 무방)
 ~~~
 public class Test2 {
 	public static void main(String[] test) {
