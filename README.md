@@ -30,7 +30,7 @@ public class testClass {
     </tr>
 </c:                             >
 ~~~
-
+<hr>
 ### 3. 아래 결과물이 나오도록 코드를 작성하시오.(값 출력 함수는 sysout으로 써도 무방)
 ~~~
 public class Test2 {
@@ -49,7 +49,7 @@ newStr : 캡틴아메리카 <br/>
 newStr : 헐크 <br/>
 newStr : 토르 <br/>
 newStr : 닥터스트레인지 <br/>
-
+<hr>
 ### 4. 아래 결과물이 나오도록 코드를 작성하시오.(클릭 시에 본인 이름을 div에 표시)
 ~~~
 <button id="btn" type="button"></button>
@@ -64,7 +64,7 @@ newStr : 닥터스트레인지 <br/>
 ~~~
 결과물 : <br/>
 <img src="https://user-images.githubusercontent.com/44331989/94353167-ad7ba780-00a8-11eb-9650-fe2dbf54c7c1.PNG">
-
+<hr>
 ### 5. 4번의 코드를 jQuery로 작성하시오.
 ~~~
  <button id="btn" type="button">버튼</button>
@@ -80,7 +80,7 @@ $(document).ready(function() {
 });
 </script>
 ~~~
-
+<hr>
 ### 6. 아래 div의 스타일을 정의하는 css 작성(너비 : 420px, 높이 : 200px, 배경색 : #FF00DD)
 ~~~
 <style>
@@ -91,7 +91,7 @@ $(document).ready(function() {
 </style>
 <div class="good"></div>
 ~~~
-
+<hr>
 ### 7. 아래 xml(ibatis)에서 parameter값으로 전달받은 "keyword"가 있는 경우 AND조건에 해당 keyword를 추가하는 코드를 완성하시오(ibatis 동적 쿼리 이용).
 ~~~
 <select id="board.getList" parameterClass="boardVO" resultClass="resultVO">
@@ -108,7 +108,7 @@ FROM board
 		
 </select>    
 ~~~
-
+<hr>
 ### 8. 아래 결과물이 나오도록 SQL문을 작성하시오.(table명은 tm_user, 성별(sex_cd)의 경우 조건식으로 작성, '01'인 경우 '남성', '02'인 경우 여성 그외는 '기타')
 ~~~
 
@@ -124,7 +124,7 @@ FROM board
 ~~~
 결과물 : <br/>
 <img src="https://user-images.githubusercontent.com/44331989/94353338-1401c500-00ab-11eb-8884-0b9c68c79c7e.PNG">
-
+<hr>
 ### 9. tomcat container 구동 중 아래와 같은 에러가 발생했다. 어느 부분을 확인해 봐야 될지 기입하시오.
 ~~~
 9월 23, 2020 8:03:52 오후 org.apache.catalina.core.StandardContext listenerStart
@@ -229,7 +229,7 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connectWithoutProxy(AbstractConnectProtocol.java:1084)
 	... 73 more
 ~~~
-
+<hr>
 ### 10. 아래 결과물이 나오도록 html 코드를 완성하시오.
 ■ 조건 : 이름 최대입력 길이 8자,
         비밀번호 최대입력 길이 12자, 비밀번호는 ****식으로 입력되야 함,
