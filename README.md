@@ -48,7 +48,7 @@ newStr : 닥터스트레인지 <br/>
 
 ### 4. 아래 결과물이 나오도록 코드를 작성하시오.(클릭 시에 본인 이름을 div에 표시)
 ~~~
-<button id="btn" type="button"></button>
+<button id="btn" type="button">click</button>
  <div id="area">
  </div>
 <script>
@@ -63,7 +63,7 @@ newStr : 닥터스트레인지 <br/>
 
 ### 5. 4번의 코드를 jQuery로 작성하시오.
 ~~~
- <button id="btn" type="button">버튼</button>
+ <button id="btn" type="button">click</button>
  <div id="area">
  </div>
 <script>
