@@ -216,19 +216,6 @@ Caused by: java.sql.SQLNonTransientConnectionException: Could not connect to add
 	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460)
 	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:534)
 	... 64 more
-Caused by: java.net.ConnectException: Connection timed out: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connect(AbstractConnectProtocol.java:447)
-	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connectWithoutProxy(AbstractConnectProtocol.java:1084)
-	... 73 more
-~~~
 
 ### 10. 아래 결과물이 나오도록 html 코드를 완성하시오.
 ■ 조건 : 이름 최대입력 길이 8자,
