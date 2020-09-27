@@ -19,18 +19,16 @@ public class testClass {
 }
 ~~~
 
-### 2. java단에서 db에서 가져온 list타입 형태의 데이터를 model에 담아 jsp에 전달했다는 가정하에 jstl로 "bno(게시글 번호)", "title(글제목)", "writer(작성자)", "regdate(작성일)", "updatedate(수정일)"을 가져와서 표현하는 문법을 아래 코드를 완성하시오(모델에 담은 변수명은 "list"로 정의).
+### 2. DB에서 가져온 list타입의 데이터(데이터는 "bno", "title", "writer", "regdate")를 model에 담아 jsp에 전달했다. 가져온 데이터를 jstl문법으로 표시하는 코드를 작성하시오(모델에 담은 객체의 변수명은 "list").
 ~~~
-<c:               >
-
-
-
-
-
-
-
-
-</c:               >
+<c:                              >
+    <tr>
+      <td>                </td>
+      <td>                </td>	
+      <td>                </td>
+      <td>                </td>
+    </tr>
+</c:                             >
 ~~~
 
 ### 3. 아래 결과물이 나오도록 코드를 작성하시오.
@@ -40,7 +38,9 @@ public class Test2 {
 		String str = "아이언맨#캡틴아메리카#헐크#토르#닥터스트레인지";
 	
 	
-    
+
+
+
 }
 ~~~
 결과물 : <br/>
@@ -92,7 +92,7 @@ $(document).ready(function() {
 <div class="good"></div>
 ~~~
 
-### 7. 아래 xml(ibatis)에서 parameter값으로 전달받은 "keyword"가 있는 경우 AND조건에 keyword를 추가하는 코드를 완성하시오.
+### 7. 아래 xml(ibatis)에서 parameter값으로 전달받은 "keyword"가 있는 경우 AND조건에 해당 keyword를 추가하는 코드를 완성하시오.
 ~~~
 <select id="board.getList" parameterClass="boardVO" resultClass="resultVO">
 SELECT
