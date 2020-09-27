@@ -11,8 +11,7 @@ public class testClass {
     
     
     
-    
-    
+       
   }
 }
 ~~~
@@ -34,7 +33,7 @@ public class testClass {
 public class Test2 {
 	public static void main(String[] test) {
 		String str = "아이언맨#캡틴아메리카#헐크#토르#닥터스트레인지";
-	
+		
 	
 
 
@@ -94,9 +93,7 @@ $(document).ready(function() {
 ~~~
 <select id="board.getList" parameterClass="boardVO" resultClass="resultVO">
 SELECT
-        title, 
-        content,
-        writer
+        title, content, writer
 FROM board
 		WHERE bno = #bno#
 		<!-- 이곳에 작성-->
@@ -109,8 +106,6 @@ FROM board
 
 ### 8. 아래 결과물이 나오도록 SQL문을 작성하시오.(table명은 tm_user, 성별(sex_cd)의 경우 조건식으로 작성, '01'인 경우 '남성', '02'인 경우 여성 그외는 '기타')
 ~~~
-
-
 
 
 
