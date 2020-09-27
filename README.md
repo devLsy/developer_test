@@ -64,7 +64,7 @@ newStr : 닥터스트레인지 <br/>
 결과물 : <br/>
 <img src="https://user-images.githubusercontent.com/44331989/94353167-ad7ba780-00a8-11eb-9650-fe2dbf54c7c1.PNG">
 
-### 5. 4번의 코드를 jQuery로 구현하시오.
+### 5. 4번의 코드를 jQuery로 .
 ~~~
  <button id="btn" type="button">버튼</button>
  <div id="area">
