@@ -46,7 +46,7 @@ newStr : 헐크 <br/>
 newStr : 토르 <br/>
 newStr : 닥터스트레인지 <br/>
 
-### 4. 아래 코드를 보고 버튼 클릭 시 div영역에 본인 이름을 표시하는 코드를 구현하시오(클릭 하기전에는 div영역엔 아무것도 없음)
+### 4. 아래 결과물이 나오도록 코드를 작성하시오.(클릭 시에 본인 이름을 div에 표시)
 ~~~
 <button id="btn" type="button">click</button>
  <div id="area">
