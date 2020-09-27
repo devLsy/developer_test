@@ -58,6 +58,8 @@ newStr : 닥터스트레인지 <br/>
 
 </script> 
 ~~~
+결과물 : <br/>
+<img src="https://user-images.githubusercontent.com/44331989/94353167-ad7ba780-00a8-11eb-9650-fe2dbf54c7c1.PNG">
 
 ### 5. 4번의 코드를 jQuery로 구현하시오.
 ~~~
@@ -237,7 +239,7 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 
 
 ~~~
-<img src="https://user-images.githubusercontent.com/44331989/94006631-14fcd300-fddb-11ea-9b9a-f07da602ed5d.PNG"/>
+<img src="https://user-images.githubusercontent.com/44331989/94006631-14fcd300-fddb-11ea-9b9a-f07da602ed5d.PNG">
 
 ## 문제 푸느라 고생 많으셨습니다 감사합니다.
 
