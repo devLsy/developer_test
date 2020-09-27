@@ -216,6 +216,7 @@ Caused by: java.sql.SQLNonTransientConnectionException: Could not connect to add
 	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460)
 	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:534)
 	... 64 more
+~~~
 
 ### 10. 아래 결과물이 나오도록 html 코드를 완성하시오.
 ■ 조건 : 이름 최대입력 길이 8자,
