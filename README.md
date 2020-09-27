@@ -3,7 +3,7 @@
 - ## 작성하지 못한 문제는 이유 간략하게 기입(ex: 시간부족)
 - ## 오탈자 상관 없음, 돌려서 에러가 있을 수 있음을 가정하고 코드 작성
 
-### 1. 1부터 100까지의 숫자 중 2의 배수의 합을 구하시오.
+### 1. 1부터 100까지의 숫자 중 2의 배수의 합을 구하시오.(합계에 사용할 변수명은 sum으로 설정)
 ~~~
 public class testClass {
   public static void main(String[] args) {
@@ -19,7 +19,7 @@ public class testClass {
 }
 ~~~
 
-### 2. DB에서 가져온 list타입의 데이터(데이터는 "bno", "title", "writer", "regdate")를 model에 담아 jsp에 전달했다. 가져온 데이터를 jstl문법으로 표시하는 코드를 작성하시오(모델에 담은 객체의 변수명은 "list").
+### 2. java에서 DB에서 가져온 데이터("bno", "title", "writer", "regdate")를 model에 담아(변수명 "list"로 설정) jsp에 전달했다. 가져온 데이터를 jstl문법으로 표시하는 코드를 작성하시오
 ~~~
 <c:                              >
     <tr>
@@ -52,7 +52,7 @@ newStr : 닥터스트레인지 <br/>
 
 ### 4. 아래 결과물이 나오도록 코드를 작성하시오.(클릭 시에 본인 이름을 div에 표시)
 ~~~
-<button id="btn" type="button">click</button>
+<button id="btn" type="button"></button>
  <div id="area">
  </div>
 <script>
@@ -92,7 +92,7 @@ $(document).ready(function() {
 <div class="good"></div>
 ~~~
 
-### 7. 아래 xml(ibatis)에서 parameter값으로 전달받은 "keyword"가 있는 경우 AND조건에 해당 keyword를 추가하는 코드를 완성하시오.
+### 7. 아래 xml(ibatis)에서 parameter값으로 전달받은 "keyword"가 있는 경우 AND조건에 해당 keyword를 추가하는 코드를 완성하시오(ibatis 동적 쿼리 이용).
 ~~~
 <select id="board.getList" parameterClass="boardVO" resultClass="resultVO">
 SELECT
@@ -101,9 +101,11 @@ SELECT
         writer
 FROM board
 		WHERE bno = #bno#
-        <               prepend="      " property="      ">
-
-        </                >
+		<!-- 이곳에 작성-->
+		
+		
+		
+		
 </select>    
 ~~~
 
@@ -233,6 +235,8 @@ Caused by: java.net.ConnectException: Connection timed out: connect
         비밀번호 최대입력 길이 12자, 비밀번호는 ****식으로 입력되야 함,
         전송 버튼 누를 경우 form data를 test/send.do로 전달
 ~~~
+<!-- 이곳에 작성-->
+
 
 	
     
