@@ -25,7 +25,7 @@ public class testClass {
       <td>                </td>
       <td>                </td>
     </tr>
-</c:forEach                             >
+</c:forEach>
 ~~~
 
 ### 3. 아래 결과물이 나오도록 코드를 작성하시오.(클릭 시에 본인 이름을 div에 표시)
