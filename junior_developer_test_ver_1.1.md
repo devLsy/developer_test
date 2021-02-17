@@ -56,7 +56,7 @@ public class testClass {
 
 ~~~
 결과물 : <br/>
-<img src="https://user-images.githubusercontent.com/44331989/108151821-ee895c80-711a-11eb-8f1c-29c497e6f6de.png">
+<img src="https://user-images.githubusercontent.com/44331989/108151937-35775200-711b-11eb-9ce1-925032402c07.png">
 
 
 
