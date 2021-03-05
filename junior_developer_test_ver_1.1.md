@@ -46,6 +46,7 @@ public class testClass {
 
 ### 4. 아래 결과물이 나오도록 SQL문을 작성하시오.(table명은 tm_user, 성별(sex_cd)의 경우 조건식으로 작성, '01'인 경우 '남성', '02'인 경우 여성 그외는 '기타')
 ~~~
+SELECT 
 
 
 
@@ -53,8 +54,7 @@ public class testClass {
 
 
 
-
-
+FROM tm_user
 
 
 ~~~
@@ -68,23 +68,26 @@ public class testClass {
         비밀번호 최대입력 길이 12자, 비밀번호는 ****식으로 입력되야 함,
         전송 버튼 누를 경우 form data를 test/send.do로 전달
 ~~~
-<!-- 이곳에 작성-->
-
-
-	
-    
-    
-
-	
-
-
-
-
-
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>test</title>
+</head>
+<body>	
+	<form name="frm" id="frm" action="">
+           이름 : <input type="text" placeholder="이름을 입력 해주세요."> <p>
+        비밀번호 : <input type="password" placeholder="비밀번호를 입력 해주세요."> <p>
+		<label><input type="checkbox"> 남성</label> 
+		<label><input type="checkbox"> 여성</label> 
+	</form>
+</body>
+</html>
 ~~~
 <img src="https://user-images.githubusercontent.com/44331989/94006631-14fcd300-fddb-11ea-9b9a-f07da602ed5d.PNG">
 
-## 문제 푸느라 고생 많으셨습니다 감사합니다.
+## 고생 많으셨습니다 감사합니다.
 
 
 
