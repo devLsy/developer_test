@@ -1,11 +1,15 @@
 # 구글링 가능, 구글링 한 문제는 옆에 구글링이라고 표시, 작성하지 못한 문제는 이유 간략하게 기입(ex: 시간부족) ※ 제한시간 10분
 ## 요지는 정답을 원하는건 아니고 어떻게 문제해결을 하는지에 있 당락에는 영향이 없습니다.
 
-### 1. 1부터 100까지의 숫자 중 2의 배수의 합을 구하시오.(합계에 사용할 변수명은 sum으로 설정, 값 출력 함수는 sysout으로 기입)
+### 1. 1부터 100까지의 숫자 중 2의 배수의 합을 구하시오.
+■ 조건 : 합계에 사용할 변수는 sum 사용, 값 출력 함수는 sysout으로 기입)
 ~~~
 public class testClass {
   public static void main(String[] args) {
-  	
+      int sum = 0;  // 합계에 사용할 변수	
+       
+    
+    
     
     
     
@@ -16,7 +20,7 @@ public class testClass {
 }
 ~~~
 
-### 2. 타입이 BoardVO인 list(boardList)에 DB에서 가져온 데이터("bno", "title", "writer", "regdate")가 담겨 있고 이를 model에 담아(변수명은 "list") jsp에 전달했다. jsp에서 jstl문법으로 반복해서 이 데이터들을 전부 표시하는 코드를 작성하시오.
+### 2. 타입이 BoardVO인 list(boardList)에 DB에서 가져온 데이터("bno", "title", "writer", "regdate")가 담겨 있고 이를 model에 담아(변수명은 "list") jsp에 전달했다. jsp에서 jstl문법으로 반복해서 이 데이터들을 전부 표시하는 코드를 하시오.
 ~~~
 <c:forEach                              >
     <tr>
@@ -34,6 +38,19 @@ public class testClass {
  <div id="area">
  </div>
 <script>
+  $(document).ready(function() {
+
+
+
+
+
+
+
+
+});
+
+
+
 
 
 
@@ -44,7 +61,7 @@ public class testClass {
 <img src="https://user-images.githubusercontent.com/44331989/94353167-ad7ba780-00a8-11eb-9650-fe2dbf54c7c1.PNG">
 
 
-### 4. 아래 결과물이 나오도록 SQL문을 작성하시오. 
+### 4. 아래 결과물이 나오도록 SQL문을 하시오. 
 ■ 조건 : user_id, user_nm, sex_cd컬럼만 조회, 성별(sex_cd)이 '01'인 경우 '남성', '02'인 경우 여성 그외는 '기타'로 작성)
 ~~~
 SELECT 
@@ -64,7 +81,7 @@ FROM tm_user
 
 
 
-### 5. 아래 결과물이 나오도록 html 코드를 작성하시오.
+### 5. 아래 결과물이 나오도록 html 코드를 완성하시오.
 ■ 조건 : 비밀번호는 ****식으로 입력되야 함,
         전송 버튼 누를 경우 form data를 test/send.do로 전달
 ~~~
