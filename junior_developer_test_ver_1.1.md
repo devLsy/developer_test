@@ -76,14 +76,16 @@ FROM tm_user
 	<title>test</title>
 </head>
 <body>	
-	<form name="frm" id="frm" action="">
+	<form name="frm" id="frm" action="                  ">
            이름 : <input type="text" placeholder="이름을 입력 해주세요."> <p>
         비밀번호 : <input type="password" placeholder="비밀번호를 입력 해주세요."> <p>
 		<label><input type="checkbox"> 남성</label> 
-		<label><input type="checkbox"> 여성</label> 
+		<label><input type="checkbox"> 여성</label>
+		 
 	</form>
 </body>
 </html>
+	
 ~~~
 <img src="https://user-images.githubusercontent.com/44331989/94006631-14fcd300-fddb-11ea-9b9a-f07da602ed5d.PNG">
 
