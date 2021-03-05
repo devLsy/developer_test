@@ -62,7 +62,7 @@ public class testClass {
 
 
 ### 4. 아래 결과물이 나오도록 SQL문을 완성하시오. 
-■ 조건 : user_id, user_nm, sex_cd컬럼만 조회, 성별(sex_cd)이 '01'인 경우 '남성', '02'인 경우 여성 그외는 '기타'로 작성)
+■ 조건 : user_id, user_nm, sex_cd컬럼만 조회하되 성별(sex_cd)이 '01'인 경우 '남성', '02'인 경우 여성 그외는 '기타'로 작성)
 ~~~
 SELECT 
 
