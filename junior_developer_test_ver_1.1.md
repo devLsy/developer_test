@@ -32,7 +32,7 @@ public class testClass {
 </c:forEach>
 ~~~
 
-### 3. 아래 결과물이 나오도록 코드를 작성하시오.(클릭 시에 본인 이름을 div에 표시, jquery 써도 무방)
+### 3. 아래 결과물이 나오도록 코드를 작성하시오.(클릭 시 면접자의 을 div에 표시, jquery 써도 무방)
 ~~~
 <button id="btn" type="button">click</button>
  <div id="area">
