@@ -18,9 +18,9 @@ public class TestClass {
 }
 ~~~
 
-### 2. 타입이 BoardVO인 list(boardList)에 DB에서 가져온 데이터("bno", "title", "writer", "regdate")가 담겨 있고 이를 model에 담아(변수명은 "list") jsp에 전달했다. jsp에서 jstl문법으로 반복해서 이 데이터들을 전부 표시하는 코드를 완성하시오.
+### 2. jstl을 이용해서 "list"에 담긴 데이터("bno", "title", "writer", "regdate")들을 전부 표시하는 코드를 완성하시오.
 ~~~
-<c:forEach                              >
+<c:forEach items="${list}"                               >
     <tr>
       <td>                </td>
       <td>                </td>	
