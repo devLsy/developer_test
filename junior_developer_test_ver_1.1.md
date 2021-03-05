@@ -64,8 +64,7 @@ FROM tm_user
 
 
 ### 5. 아래 결과물이 나오도록 html 코드를 작성하시오.
-■ 조건 : 이름 최대입력 길이 8자,
-        비밀번호 최대입력 길이 12자, 비밀번호는 ****식으로 입력되야 함,
+■ 조건 : 비밀번호는 ****식으로 입력되야 함,
         전송 버튼 누를 경우 form data를 test/send.do로 전달
 ~~~
 <!DOCTYPE html>
@@ -78,7 +77,7 @@ FROM tm_user
 <body>	
 	<form name="frm" id="frm" action="                  ">
            이름 : <input type="text" placeholder="이름을 입력 해주세요."> <p>
-        비밀번호 : <input type="password" placeholder="비밀번호를 입력 해주세요."> <p>
+        비밀번호 : <input type="          " placeholder="비밀번호를 입력 해주세요."> <p>
 		<label><input type="checkbox"> 남성</label> 
 		<label><input type="checkbox"> 여성</label>
 		 
