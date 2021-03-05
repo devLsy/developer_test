@@ -44,7 +44,8 @@ public class testClass {
 <img src="https://user-images.githubusercontent.com/44331989/94353167-ad7ba780-00a8-11eb-9650-fe2dbf54c7c1.PNG">
 
 
-### 4. 아래 결과물이 나오도록 SQL문을 작성하시오.(table명은 tm_user, 성별(sex_cd)의 경우 조건식으로 작성, '01'인 경우 '남성', '02'인 경우 여성 그외는 '기타')
+### 4. 아래 결과물이 나오도록 SQL문을 작성하시오. 
+■ 조건 : user_id, user_nm, sex_cd컬럼만 조회, 성별(sex_cd)이 '01'인 경우 '남성', '02'인 경우 여성 그외는 '기타'로 작성)
 ~~~
 SELECT 
 
