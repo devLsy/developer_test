@@ -20,7 +20,7 @@ public class testClass {
 }
 ~~~
 
-### 2. 타입이 BoardVO인 list(boardList)에 DB에서 가져온 데이터("bno", "title", "writer", "regdate")가 담겨 있고 이를 model에 담아(변수명은 "list") jsp에 전달했다. jsp에서 jstl문법으로 반복해서 이 데이터들을 전부 표시하는 코드를 하시오.
+### 2. 타입이 BoardVO인 list(boardList)에 DB에서 가져온 데이터("bno", "title", "writer", "regdate")가 담겨 있고 이를 model에 담아(변수명은 "list") jsp에 전달했다. jsp에서 jstl문법으로 반복해서 이 데이터들을 전부 표시하는 코드를 완성하시오.
 ~~~
 <c:forEach                              >
     <tr>
@@ -32,7 +32,7 @@ public class testClass {
 </c:forEach>
 ~~~
 
-### 3. 아래 결과물이 나오도록 코드를 작성하시오.(클릭 시 면접자의 을 div에 표시, jquery 써도 무방)
+### 3. 아래 결과물이 나오도록 코드를 작성하시오.(클릭 시 면접자의 이름을 div에 표시, jquery 써도 무방)
 ~~~
 <button id="btn" type="button">click</button>
  <div id="area">
@@ -61,7 +61,7 @@ public class testClass {
 <img src="https://user-images.githubusercontent.com/44331989/94353167-ad7ba780-00a8-11eb-9650-fe2dbf54c7c1.PNG">
 
 
-### 4. 아래 결과물이 나오도록 SQL문을 하시오. 
+### 4. 아래 결과물이 나오도록 SQL문을 완성하시오. 
 ■ 조건 : user_id, user_nm, sex_cd컬럼만 조회, 성별(sex_cd)이 '01'인 경우 '남성', '02'인 경우 여성 그외는 '기타'로 작성)
 ~~~
 SELECT 
@@ -82,8 +82,7 @@ FROM tm_user
 
 
 ### 5. 아래 결과물이 나오도록 html 코드를 완성하시오.
-■ 조건 : 비밀번호는 ****식으로 입력되야 함,
-        전송 버튼 누를 경우 form data를 test/send.do로 전달
+■ 조건 : 비밀번호는 ****식으로 입력되야 함,  전송 버튼 누를 경우 form data를 test/send.do로 전달
 ~~~
 <!DOCTYPE html>
 <html lang="ko">
@@ -95,7 +94,7 @@ FROM tm_user
 <body>	
 	<form name="frm" id="frm" action="                  ">
            이름 : <input type="text" placeholder="이름을 입력 해주세요."> <p>
-        비밀번호 : <input type="          " placeholder="비밀번호를 입력 해주세요."> <p>
+        비밀번호 : <input type="              " placeholder="비밀번호를 입력 해주세요."> <p>
 		<label><input type="checkbox"> 남성</label> 
 		<label><input type="checkbox"> 여성</label>
 		 
