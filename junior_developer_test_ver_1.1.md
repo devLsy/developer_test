@@ -4,19 +4,17 @@
 ### 1. 1부터 100까지의 숫자 중 2의 배수의 합을 구하시오.
 ■ 조건 : 합계에 사용할 변수는 sum 사용, 값 출력 함수는 sysout으로 기입)
 ~~~
-public class testClass {
-  public static void main(String[] args) {
-      int sum = 0;  // 합계에 사용할 변수	
-       
-    
-    
-    
-    
-    
-    
-    
-       
-  }
+public class TestClass {
+	public static void main(String[] args) {
+		int sum = 0;
+		for(                                  ) {
+				
+					
+				
+		}
+		// 여기에 결과를 출력
+		
+	}
 }
 ~~~
 
