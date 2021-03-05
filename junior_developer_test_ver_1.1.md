@@ -73,7 +73,7 @@ SELECT
 
 
 FROM tm_user
-
+;
 
 ~~~
 결과물 : <br/>
