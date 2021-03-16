@@ -58,7 +58,6 @@ public class TestClass {
 결과물 : <br/>
 <img src="https://user-images.githubusercontent.com/44331989/94353167-ad7ba780-00a8-11eb-9650-fe2dbf54c7c1.PNG">
 
-
 ### 4. 아래 결과물이 나오도록 SQL문을 완성하시오. 
 ■ 조건 : user_id, user_nm, sex_cd컬럼만 조회하되 성별(sex_cd)이 '01'인 경우 '남성', '02'인 경우 여성 그외는 '기타'로 작성)
 ~~~
@@ -72,12 +71,9 @@ SELECT
 
 FROM tm_user
 ;
-
 ~~~
 결과물 : <br/>
 <img src="https://user-images.githubusercontent.com/44331989/108151937-35775200-711b-11eb-9ce1-925032402c07.png">
-
-
 
 ### 5. 아래 결과물이 나오도록 html 코드를 완성하시오.
 ■ 조건 : 비밀번호는 ****식으로 입력되야 함,  전송 버튼 누를 경우 form data를 test/send.do로 전달
@@ -99,14 +95,7 @@ FROM tm_user
 	</form>
 </body>
 </html>
-	
 ~~~
 <img src="https://user-images.githubusercontent.com/44331989/94006631-14fcd300-fddb-11ea-9b9a-f07da602ed5d.PNG">
 
 ## 고생 많으셨습니다 감사합니다.
-
-
-
-
-
-
